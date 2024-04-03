@@ -1,0 +1,22 @@
+{
+    "name": "sauky13/middelwares",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sauky13"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "middelwares\\": "middelwares/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
